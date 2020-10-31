@@ -1,0 +1,43 @@
+---
+title: "PPOL564 Project Proposal"
+
+author: Alexander Adams
+
+date: October 30, 2020
+
+---
+
+### General Problem Statement
+
+I want to investigate factors which influence or are associated with state-level partisan vote share in the modern United States. The two factors I want to look at specifically are 1) the unemployment rate for a given state in a particular election and 2) the partisan affiliation of the state secretary of state or equivalent top elections official.
+
+I have selected these factors in part due to availability of data. However, voters tend to rate the economy as a major factor, and unemployment is undoubtedly a significant part of that perception [@PewResearchCenter2020] Additionally, regarding state secretaries of state, it is possible that their attitude toward election operation is informed by their partisan affiliation, and so affects how they run elections in their state. 
+
+### Data Sources
+
+For this analysis, I will need to use three data sources:
+
+
+-state-level partisan vote share,
+
+-state-level unemployment
+
+-and state secretary of state partisan affiliation.
+
+The partisan vote share data I plan to use is from the MIT Election Data and Science Lab. This database has state-level data sets for presidential elections, senate elections, and elections for the house of representatives. Ideally, I would like to use all three, but realistically I am planning on only using the data for the presidential election. Using just presidential election data also removes any variance which could be due to candidate quality, since the presidential candidate does not change based on the state. This data spans from 1976 to 2016 (or 2018 in the case of the senate and house races), but I plan to only look at elections from 2000 to the present.[@DVN/42MVDX_2017]
+
+The unemployment data is from the United States Department of Agriculture. This data set contains observations for each year from 2000 to 2019. [@USDAERSDownloadData-2020-10-30]. There are also columns for the total workforce for a given county, as well as the number of people in that workforce who are employed in a given year. I do not anticipate using this data in this analysis. If the scope of this project were larger, I would attempt to take population or workforce size into account. For the purposes of this project, I only plan to use the data on the percentage unemployed for a given year.
+
+As for the data about state secretaries of state, I have not been able to find an organized data set with that information, so I will have to compile it from scratch (and I mean literally from scratch; I have not been able to find a table I could scrape using the pandas read_html function). The first two data sources are from government or academic databases, and so they are tidy and will not require much manipulation to concatenate. Because I am effectively building the third data set myself, I should be able to construct it in such a way that it can be easily merged with the other two. Since there are only 50 states, and I want to limit my analysis to only elections since 2000, it should not take too much time to create a basic table, even if I have to individually enter each data point. Some state secretaries of state are appointed by the governor, while others are directly elected; in a small number of states, the role of chief elections officer is filled instead by the lieutenant governor. For the purposes of this analysis, I will not be distinguishing between appointed or elected officials, nor will I distinguish between state secretaries of state and lieutenant governors. 
+
+All of these data sources will be converted to the same unit, which is state-year. The unemployment data is currently broken down by county or parish, and so I will have to first convert it to be at the state level. I also plan to only analyze the data for Democrats and Republicans, both regarding vote share and state secretary of state partisanship. 
+
+### Methods
+
+While I am not sure yet if I will do my data manipulation using SQL or pandas, I do plan to create and use a SQL database to keep my tables organized. I plan on using python packages like matplotlib and plotnine to create multiple visualizations, and if possible, I would like to integrate a Tableau map graphic into my final project. As we learn more about machine learning in class, I will select a machine learning technique and package, and use them to conduct a portion of my analysis. My initial plan is to specify one or more OLS regressions to look for relationships. I plan to include the output for those regressions as tables in my final report. 
+
+### Metrics for Success
+
+Success for this project means that I am able to conclude based on this data and my work that there is either is or is not an association between unemployment levels and partisan vote share, between state secretary of state partisanship and partisan vote share, or between all three of those variables. It is not important that I find an association, just that I am able to report whether or not I have found one. If I have time, I might try to investigate unemployment rates as a leading predictor of partisan vote share (i.e. compare the unemployment rate from 2003 to the vote share from 2004), but this is not the central focus of this project.
+
+### References
