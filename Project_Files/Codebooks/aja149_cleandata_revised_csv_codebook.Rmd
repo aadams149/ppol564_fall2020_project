@@ -1,0 +1,298 @@
+---
+title: "aja149_cleandata_csv_Codebook"
+author: "Alexander Adams"
+date: "11/30/2020"
+output: html_document
+---
+
+This document is the codebook for the data set 'aja149_cleandata.csv'. It contains a list of all variables included in that .csv file, as well as whether that variable is a feature or outcome variable, and whether or not it is included in the final analysis (specified by (*)).
+
+--------------------------------------------------------------------------------
+
+OUTCOME VARIABLE:
+
+(*) D_win2016
+-Binary variable. 1 = Democratic presidential candidate won that county in the 2016 U.S. presidential election, 0 = Republican presidential candidate won the county.
+
+--------------------------------------------------------------------------------
+
+FEATURE VARIABLES:
+
+FIPS
+-A 5-digit code. Each county, county-equivalent, or incorporated city in the U.S. has one. The first two digits correspond to the state or territory, and the last three are a unique identifier. 
+
+Stabr
+-State abbreviation (i.e. AL for Alabama).
+
+area_name
+-The name of the county or equivalent jurisdiction corresponding to a particular FIPS code.
+
+(*) Rural_urban_continuum_code_2013
+-Measure of urban status. Ranges from 1 (Metro - Counties in metro areas of 1 million population or more) to 9 (Nonmetro - Completely rural or less than 2,500 urban population, not adjacent to a metro area). See ruralurbancodes2013.xls.
+
+(*) Urban_influence_codes_2013
+-Measure of urban influence. Ranges from 1 (Large-in a metro area with at least 1 million residents or more) to 12 (Noncore not adjacent to a metro/micro area and does not contain a town of at least 2,500 residents). See UrbanInfluenceCodes2013.xls.
+
+(*) Metro_2013
+-Metro nonmetro dummy 0=Nonmetro 1=Metro (Based on 2013 OMB Metropolitan Area delineation)
+
+(*) Unemployment_rate_2000
+-The percentage of the workforce in that county which was not employed in 2000.
+
+(*) Unemployment_rate_2001
+-The percentage of the workforce in that county which was not employed in 2001.
+
+(*) Unemployment_rate_2002
+-The percentage of the workforce in that county which was not employed in 2002.
+
+(*) Unemployment_rate_2003
+-The percentage of the workforce in that county which was not employed in 2003.
+
+(*) Unemployment_rate_2004
+-The percentage of the workforce in that county which was not employed in 2004.
+
+(*) Unemployment_rate_2005
+-The percentage of the workforce in that county which was not employed in 2005.
+
+(*) Unemployment_rate_2006
+-The percentage of the workforce in that county which was not employed in 2006.
+
+(*) Unemployment_rate_2007
+-The percentage of the workforce in that county which was not employed in 2007.
+
+(*) Unemployment_rate_2008
+-The percentage of the workforce in that county which was not employed in 2008.
+
+(*) Unemployment_rate_2009
+-The percentage of the workforce in that county which was not employed in 2009.
+
+(*) Unemployment_rate_2010
+-The percentage of the workforce in that county which was not employed in 2010.
+
+(*) Unemployment_rate_2011
+-The percentage of the workforce in that county which was not employed in 2011.
+
+(*) Unemployment_rate_2012
+-The percentage of the workforce in that county which was not employed in 2012.
+
+(*) Unemployment_rate_2013
+-The percentage of the workforce in that county which was not employed in 2013.
+
+(*) Unemployment_rate_2014
+-The percentage of the workforce in that county which was not employed in 2014.
+
+(*) Unemployment_rate_2015
+-The percentage of the workforce in that county which was not employed in 2015.
+
+(*) Unemployment_rate_2016
+-The percentage of the workforce in that county which was not employed in 2016.
+
+(*) Dvotes2000
+-The percentage of the two-party vote share earned by the Democratic presidential candidate in the 2000 U.S. presidential election.
+
+(*) Rvotes2000
+-The percentage of the two-party vote share earned by the Republican presidential candidate in the 2000 U.S. presidential election.
+
+(*) tvotes2000
+-The total number of votes cast for all candidates, regardless of party, in the 2000 U.S. presidential election.
+
+(*) Dvotes2004
+-The percentage of the two-party vote share earned by the Democratic presidential candidate in the 2004 U.S. presidential election.
+
+(*) Rvotes2004
+-The percentage of the two-party vote share earned by the Republican presidential candidate in the 2004 U.S. presidential election.
+
+(*) tvotes2004
+-The total number of votes cast for all candidates, regardless of party, in the 2004 U.S. presidential election.
+
+(*) Dvotes2008
+-The percentage of the two-party vote share earned by the Democratic presidential candidate in the 2008 U.S. presidential election.
+
+(*) Rvotes2008
+-The percentage of the two-party vote share earned by the Republican presidential candidate in the 2008 U.S. presidential election.
+
+(*) tvotes2008
+-The total number of votes cast for all candidates, regardless of party, in the 2008 U.S. presidential election.
+
+(*) Dvotes2012
+-The percentage of the two-party vote share earned by the Democratic presidential candidate in the 2012 U.S. presidential election.
+
+(*) Rvotes2012
+-The percentage of the two-party vote share earned by the Republican presidential candidate in the 2012 U.S. presidential election.
+
+(*) tvotes2012
+-The total number of votes cast for all candidates, regardless of party, in the 2012 U.S. presidential election.
+
+Dvotes2016
+-The percentage of the two-party vote share earned by the Democratic presidential candidate in the 2016 U.S. presidential election.
+
+Rvotes2016
+-The percentage of the two-party vote share earned by the Republican presidential candidate in the 2016 U.S. presidential election.
+
+tvotes2016
+-The total number of votes cast for all candidates, regardless of party, in the 2016 U.S. presidential election.
+
+2P_2000
+-The total two-party vote in the 2000 U.S. presidential election.
+
+2P_2004
+-The total two-party vote in the 2004 U.S. presidential election.
+
+2P_2008
+-The total two-party vote in the 2008 U.S. presidential election.
+
+2P_2012
+-The total two-party vote in the 2012 U.S. presidential election.
+
+(*) TOT_POP_x
+-The total population of that county in 2016 (age 18-45).
+
+(*) TOT_MALE_x
+-The proportion of the population which is male in 2016 (age 18-45).
+
+(*) TOT_FEMALE_x
+-The proportion of the population which is female in 2016 (age 18-45).
+
+(*) WA_MALE_x
+-The proportion of the population which is white and male in 2016 (age 18-45).
+
+(*) WA_FEMALE_x
+-The proportion of the population which is white and female in 2016 (age 18-45).
+
+(*) BA_MALE_x
+-The proportion of the population which is black and male in 2016 (age 18-45).
+
+(*) BA_FEMALE_x
+-The proportion of the population which is black and female in 2016 (age 18-45).
+
+(*) IA_MALE_x
+-The proportion of the population which is american indian or alaska native and male in 2016 (age 18-45).
+
+(*) IA_FEMALE_x
+-The proportion of the population which is american indian or alaska native and female in 2016 (age 18-45).
+
+(*) AA_MALE_x
+-The proportion of the population which is asian and male in 2016 (age 18-45).
+
+(*) AA_FEMALE_x
+-The proportion of the population which is asian and female in 2016 (age 18-45).
+
+(*) NA_MALE_x
+-The proportion of the population which is native hawaiian or other pacific islander and male in 2016 (age 18-45).
+
+(*) NA_FEMALE_x
+-The proportion of the population which is native hawaiian or other pacific islander and female in 2016 (age 18-45).
+
+(*) TOM_MALE_x
+-The proportion of the population which is two or more races and male in 2016 (age 18-45).
+
+(*) TOM_FEMALE_x
+-The proportion of the population which is two or more races and female in 2016 (age 18-45).
+
+(*) H_MALE_x
+-The proportion of the population which is hispanic or latino and male in 2016 (age 18-45).
+
+(*) H_FEMALE_x
+-The proportion of the population which is hispanic or latina and female in 2016 (age 18-45).
+
+(*) TOT_POP_y
+-The total population of that county in 2016 (age 45-65).
+
+(*) TOT_MALE_y
+-The proportion of the population which is male in 2016 (age 45-65).
+
+(*) TOT_FEMALE_y
+-The proportion of the population which is female in 2016 (age 45-65).
+
+(*) WA_MALE_y
+-The proportion of the population which is white and male in 2016 (age 45-65).
+
+(*) WA_FEMALE_y
+-The proportion of the population which is white and female in 2016 (age 45-65).
+
+(*) BA_MALE_y
+-The proportion of the population which is black and male in 2016 (age 45-65).
+
+(*) BA_FEMALE_y
+-The proportion of the population which is black and female in 2016 (age 45-65).
+
+(*) IA_MALE_y
+-The proportion of the population which is american indian or alaska native and male in 2016 (age 45-65).
+
+(*) IA_FEMALE_y
+-The proportion of the population which is american indian or alaska native and female in 2016 (age 45-65).
+
+(*) AA_MALE_y
+-The proportion of the population which is asian and male in 2016 (age 45-65).
+
+(*) AA_FEMALE_y
+-The proportion of the population which is asian and female in 2016 (age 45-65).
+
+(*) NA_MALE_y
+-The proportion of the population which is native hawaiian or other pacific islander and male in 2016 (age 45-65).
+
+(*) NA_FEMALE_y
+-The proportion of the population which is native hawaiian or other pacific islander and female in 2016 (age 45-65).
+
+(*) TOM_MALE_y
+-The proportion of the population which is two or more races and male in 2016 (age 45-65).
+
+(*) TOM_FEMALE_y
+-The proportion of the population which is two or more races and female in 2016 (age 45-65).
+
+(*) H_MALE_y
+-The proportion of the population which is hispanic or latino and male in 2016 (age 45-65).
+
+(*) H_FEMALE_y
+-The proportion of the population which is hispanic or latina and female in 2016 (age 45-65).
+
+(*) TOT_POP
+-The total population of that county in 2016 (age 65+) .
+
+(*) TOT_MALE
+-The proportion of the population which is male in 2016 (age 65+).
+
+(*) TOT_FEMALE
+-The proportion of the population which is female in 2016 (age 65+).
+
+(*) WA_MALE
+-The proportion of the population which is white and male in 2016 (age 65+).
+
+(*) WA_FEMALE
+-The proportion of the population which is white and female in 2016 (age 65+).
+
+(*) BA_MALE
+-The proportion of the population which is black and male in 2016 (age 65+).
+
+(*) BA_FEMALE
+-The proportion of the population which is black and female in 2016 (age 65+).
+
+(*) IA_MALE
+-The proportion of the population which is american indian or alaska native and male in 2016 (age 65+).
+
+(*) IA_FEMALE
+-The proportion of the population which is american indian or alaska native and female in 2016 (age 65+).
+
+(*) AA_MALE
+-The proportion of the population which is asian and male in 2016 (age 65+).
+
+(*) AA_FEMALE
+-The proportion of the population which is asian and female in 2016 (age 65+).
+
+(*) NA_MALE
+-The proportion of the population which is native hawaiian or other pacific islander and male in 2016 (age 65+).
+
+(*) NA_FEMALE
+-The proportion of the population which is native hawaiian or other pacific islander and female in 2016 (age 65+).
+
+(*) TOM_MALE
+-The proportion of the population which is two or more races and male in 2016 (age 65+).
+
+(*) TOM_FEMALE
+-The proportion of the population which is two or more races and female in 2016 (age 65+).
+
+(*) H_MALE
+-The proportion of the population which is hispanic or latino and male in 2016 (age 65+).
+
+(*) H_FEMALE
+-The proportion of the population which is hispanic or latina and female in 2016 (age 65+).
