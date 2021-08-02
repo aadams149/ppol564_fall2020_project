@@ -1,0 +1,177 @@
+@misc{PewResearchCenter2020,
+author = {{Pew Research Center}},
+booktitle = {Pew Research Center},
+title = {{Election 2020: Voters Are Highly Engaged, but Nearly Half Expect To Have Difficulties Voting}},
+url = {https://www.pewresearch.org/politics/2020/08/13/important-issues-in-the-2020-election/},
+urldate = {2020-10-29},
+year = {2020}
+}
+
+@data{USDAERSDownloadData-2020-10-30,
+  author = {U.S. Department of Agriculture},
+  publisher = {U.S. Department of Agriculture},
+  title = {USDA ERS - Download Data},
+  date = {2020-10-30},
+  file = {:./references/data-products-county-level-data-sets-download-data-.html:html},
+  url = {https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/},
+  urldate = {2020-10-30}
+}
+
+@data{DVN/42MVDX_2017,
+author = {MIT Election Data and Science Lab},
+publisher = {Harvard Dataverse},
+title = {{U.S. President 1976–2016}},
+UNF = {UNF:6:Mw0hOUHAijKPTVRAe5jJvg==},
+year = {2017},
+version = {V5},
+doi = {10.7910/DVN/42MVDX},
+url = {https://doi.org/10.7910/DVN/42MVDX}
+}
+
+@data {Alaska2016,
+  author = {rrhelections.com},
+  publisher = {rrhelections.com},
+  title = {Alaska Results by County Equivalent, 1960-2016 - RRH Elections},
+  date = {2020-12-17},
+  file = {:./references/index.php-2018-02-02-alaska-results-by-county-equivalent-1960-2016-.html:html},
+  url = {https://rrhelections.com/index.php/2018/02/02/alaska-results-by-county-equivalent-1960-2016/},
+  urldate = {2020-12-17}
+}
+@data {HealthRank2016,
+  author = {County Health Rankings Project},
+  publisher = {University of Wisconsin Population Health Institute},
+  title = {National Data & Documentation: 2010-2018 | County Health Rankings & Roadmaps},
+  date = {2020-11-23},
+  file = {:./references/explore-health-rankings-rankings-data-documentation-national-data-documentation-2010-2018.html:html},
+  url = {https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation/national-data-documentation-2010-2018},
+  urldate = {2020-12-17}
+}
+@data {MarDiv2010,
+  author = {National Center for Family & Marriage Research},
+  publisher = {Bowling Green State University Data Compass},
+  title = {County-Level Marriage & Divorce Data, 2010},
+  date = {2020-12-16},
+  file = {:./references/ncfmr-resources-data-original-data-county-level-marriage-divorce-data-2010.html.html:html},
+  url = {https://www.bgsu.edu/ncfmr/resources/data/original-data/county-level-marriage-divorce-data-2010.html},
+  urldate = {2020-12-17}
+}
+@data {Demographics2016,
+  publisher = {U.S. Census Bureau},
+  title = {County Population by Characteristics: 2010-2019},
+  date = {2020-12-17},
+  author = {U.S. Census Bureau},
+  file = {:./references/data-tables-time-series-demo-popest-2010s-counties-detail.html.html:html},
+  url = {https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-detail.html},
+  urldate = {2020-12-17}
+}
+@incollection{fiorina2016parties,
+  title={The Political Parties Have Sorted},
+  author={Fiorina, Morris P},
+  booktitle={Essays on Contemporary American Politics},
+  pages={1--20},
+  year={2016},
+  publisher={Hoover Institution Press},
+  address={Stanford CA}
+}
+@Online {Why2016electionpollsmissedtheirmarkPewResearchCenter-2020-12-17,
+  author = {Andrew Mercer, Claudia Deane, Kyley Mcgeeney},
+  publisher = {Pew Research Center},
+  title = {Why 2016 election polls missed their mark | Pew Research Center},
+  date = {2020-12-17},
+  file = {:./references/fact-tank-2016-11-09-why-2016-election-polls-missed-their-mark-.html:html},
+  url = {https://www.pewresearch.org/fact-tank/2016/11/09/why-2016-election-polls-missed-their-mark/},
+  urldate = {2020-12-17}
+}
+@Online {Censusshowspervasivedeclinein2016minorityvoterturnout-2020-12-18,
+  title = {Census shows pervasive decline in 2016 minority voter turnout},
+  date = {2020-12-18},
+  author = {William H. Frey},
+  file = {:./references/blog-the-avenue-2017-05-18-census-shows-pervasive-decline-in-2016-minority-voter-turnout-.html:html},
+  url = {https://www.brookings.edu/blog/the-avenue/2017/05/18/census-shows-pervasive-decline-in-2016-minority-voter-turnout/},
+  urldate = {2020-12-18}
+}
+@Journal {ReevesPark2020,
+  title = {Local Unemployment and Voting for President: Uncovering Causal Mechanisms},
+  date = {2018-09-28},
+  author = {Taeyong Park and Andrew Reeves},
+  url = {https://andrewreeves.org/papers/unemployment.pdf},
+  file = {:./references/papers-unemployment.pdf.html:html},
+  urldate = {2020-12-18}
+}
+@article{scikit-learn,
+ title={Scikit-learn: Machine Learning in {P}ython},
+ author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+ journal={Journal of Machine Learning Research},
+ volume={12},
+ pages={2825--2830},
+ year={2011}
+}
+@online{plotly, 
+  author = {Plotly Technologies Inc.}, 
+  title = {Collaborative data science}, 
+  publisher = {Plotly Technologies Inc.}, 
+  address = {Montreal, QC}, 
+  year = {2015}, 
+  url = {https://plot.ly}
+}
+@software{reback2020pandas,
+    author       = {The pandas development team},
+    title        = {pandas-dev/pandas: Pandas},
+    month        = feb,
+    year         = 2020,
+    publisher    = {Zenodo},
+    version      = {latest},
+    doi          = {10.5281/zenodo.3509134},
+    url          = {https://doi.org/10.5281/zenodo.3509134}
+}
+@Article{         harris2020array,
+ title         = {Array programming with {NumPy}},
+ author        = {Charles R. Harris and K. Jarrod Millman and St{'{e}}fan J.
+                 van der Walt and Ralf Gommers and Pauli Virtanen and David
+                 Cournapeau and Eric Wieser and Julian Taylor and Sebastian
+                 Berg and Nathaniel J. Smith and Robert Kern and Matti Picus
+                 and Stephan Hoyer and Marten H. van Kerkwijk and Matthew
+                 Brett and Allan Haldane and Jaime Fern{'{a}}ndez del
+                 R{'{\i}}o and Mark Wiebe and Pearu Peterson and Pierre
+                 G{'{e}}rard-Marchant and Kevin Sheppard and Tyler Reddy and
+                 Warren Weckesser and Hameer Abbasi and Christoph Gohlke and
+                 Travis E. Oliphant},
+ year          = {2020},
+ month         = sep,
+ journal       = {Nature},
+ volume        = {585},
+ number        = {7825},
+ pages         = {357--362},
+ doi           = {10.1038/s41586-020-2649-2},
+ publisher     = {Springer Science and Business Media {LLC}},
+ url           = {https://doi.org/10.1038/s41586-020-2649-2}
+}
+@Article{Hunter:2007,
+  Author    = {Hunter, J. D.},
+  Title     = {Matplotlib: A 2D graphics environment},
+  Journal   = {Computing in Science \& Engineering},
+  Volume    = {9},
+  Number    = {3},
+  Pages     = {90--95},
+  abstract  = {Matplotlib is a 2D graphics package used for Python for
+  application development, interactive scripting, and publication-quality
+  image generation across user interfaces and operating systems.},
+  publisher = {IEEE COMPUTER SOC},
+  doi       = {10.1109/MCSE.2007.55},
+  year      = 2007
+}
+@article{10.2307/20452117,
+ ISSN = {10490965, 15375935},
+ URL = {http://www.jstor.org/stable/20452117},
+ author = {Seth C. McKee},
+ journal = {PS: Political Science and Politics},
+ number = {1},
+ pages = {101--108},
+ publisher = {[American Political Science Association, Cambridge University Press]},
+ title = {Rural Voters and the Polarization of American Presidential Elections},
+ volume = {41},
+ year = {2008}
+}
